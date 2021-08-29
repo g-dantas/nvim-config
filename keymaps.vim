@@ -18,6 +18,7 @@ nnoremap <C-p> :Files<cr>
 nnoremap <leader>f :Ag<cr>
 nnoremap <C-x> :Git diff<cr>
 nnoremap <C-s> <esc>:w!<cr>
+nnoremap <leader>s :CocCommand bladeFormatter.run<cr>
 inoremap <C-s> <esc>:w!<cr>
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 inoremap <silent><expr> <c-space> coc#refresh()

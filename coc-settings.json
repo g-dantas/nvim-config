@@ -2,8 +2,6 @@
 	"intelephense.progress.enable": false,
 	"intelephense.diagnostics.enable": false,
 	"javascript.validate.enable": false,
-	"typescript.suggestionActions.enabled": false,
-	"html.autoClosingTags": true,
 	"html-css-support.enabledLanguages": [
 		"html",
 		"blade"
@@ -12,7 +10,6 @@
 		"blade": "html"
 	},
 	"coc.preferences.formatOnSaveFiletypes": [
-		"html",
-		"blade"
+		"html"
 	]
 }
