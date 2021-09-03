@@ -41,5 +41,3 @@ function! OpenTerminal()
   split term://bash
   resize 20
 endfunction
-
-au BufWritePost * if &buftype == 'blade' | :tt | endif

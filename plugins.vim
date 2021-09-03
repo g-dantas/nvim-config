@@ -17,4 +17,5 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
 Plug 'dense-analysis/ale'
 Plug 'jwalton512/vim-blade'
+Plug 'majutsushi/tagbar'
 call plug#end()
